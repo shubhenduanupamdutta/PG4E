@@ -1,0 +1,1 @@
+INSERT INTO make (name) VALUES ('Ford'), ('Mazda');
