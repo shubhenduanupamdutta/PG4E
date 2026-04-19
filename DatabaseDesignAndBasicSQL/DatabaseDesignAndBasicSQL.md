@@ -32,3 +32,12 @@
 - [Database Normalization](Module3/DatabaseNormalization.md)
 - [Using JOIN Across Multiple Tables](Module3/UsingJOINAcrossMultipleTables.md)
 - [Exercise - Building a Database for Music Library](Module3/ExerciseBuildingADataModel.md)
+
+---
+
+## Module 4: Many-To-Many Data Models
+
+---
+
+- [Many-To-Many Relationships](Module4/ManyToManyRelationships.md)
+- [Implementing Music Library with Many-To-Many Relationships](Module4/ImplementingManyToMany.md)
