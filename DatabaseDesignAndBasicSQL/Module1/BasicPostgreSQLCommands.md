@@ -11,6 +11,7 @@
 - `\h <SQL_command>` - Get help on a specific SQL command
 - `\?` - List all available commands in the PostgreSQL command line interface
 - `\copy` - Copy data between a file and a table
+- `\pset` - Set output formatting options for query results
 - `\q` - Quit the PostgreSQL command line interface
 - `CREATE DATABASE <database_name>;` - Create a new database
 - `DROP DATABASE <database_name>;` - Delete a database
