@@ -1,0 +1,2 @@
+ALTER TABLE pg4e_debug
+ADD COLUMN neon345 BIGINT;

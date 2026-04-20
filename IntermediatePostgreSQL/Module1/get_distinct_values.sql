@@ -1,0 +1,1 @@
+SELECT DISTINCT state FROM taxdata ORDER BY state LIMIT 5;

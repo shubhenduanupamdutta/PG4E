@@ -1,0 +1,6 @@
+CREATE TABLE pg4e_debug (
+    id SERIAL PRIMARY KEY,
+    query VARCHAR(4906),
+    result VARCHAR(4906),
+    created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+);

@@ -104,8 +104,8 @@ This will commonly (unless configured specifically) will start a full scan.
 
 ### The `LIMIT/OFFSET` clause
 
-- \*\*We can request the first "n" rows, or the first "n" rows after skipping some rows.
-- The `WHERE` and `ORDER BY` clauses happen **before** the `LIMIT` and `OFFSET` clauses.\*\*
+- We can request the first "n" rows, or the first "n" rows after skipping some rows.
+- The `WHERE` and `ORDER BY` clauses happen **before** the `LIMIT` and `OFFSET` clauses.
 - THE `OFFSET` starts from row 0.
 
 ```sql
