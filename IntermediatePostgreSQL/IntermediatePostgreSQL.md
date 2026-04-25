@@ -36,3 +36,13 @@
 - [Inside Hashes](Module3/InsideHashes.md)
 - [Cryptography, Hashing and NIST](Module3/CryptographyHashingAndNIST.md)
 - [Index Choices and Techniques](Module3/IndexChoicesAndTechniques.md)
+
+---
+
+## Module 4: Regular Expressions
+
+---
+
+- [Regular Expressions](Module4/RegularExpressions.md)
+- [Using Regular Expressions in PostgreSQL](Module4/UsingRegularExpressionsInPostgreSQL.md)
+- [Demo: Flat Files, Regex, Email](Module4/DemoFlatFilesRegexEmail.md)
