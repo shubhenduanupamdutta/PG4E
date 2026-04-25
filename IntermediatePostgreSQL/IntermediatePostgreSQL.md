@@ -23,3 +23,16 @@
 - [Assignment 1: Musical Tracks Many to One](Module2/Assignment1MusicalTracksManyToOne.md)
 - [Assignment 2: Unesco Heritage Sites Many to One](Module2/Assignment2UnescoHeritageSitesManyToOne.md)
 - [Assignment 3: Musical Tracks Database plus Artists](Module2/Assignment3MusicalTracksDatabasePlusArtists.md)
+
+---
+
+## Module 3: Text in PostgreSQL
+
+---
+
+- [Text in Databases and Text Functions](Module3/TextInDatabasesAndTextFunctions.md)
+- [Character Sets](Module3/CharacterSets.md)
+- [Character Sets in Python](Module3/CharacterSetsInPython.md)
+- [Inside Hashes](Module3/InsideHashes.md)
+- [Cryptography, Hashing and NIST](Module3/CryptographyHashingAndNIST.md)
+- [Index Choices and Techniques](Module3/IndexChoicesAndTechniques.md)

@@ -1,0 +1,18 @@
+[project]
+name = "pg4e"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["IntermediatePostgreSQL/Module3"]
+
+[tool.ruff]
+line-length = 99
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["T201", "INP001"]
+unfixable = ["F401"]
