@@ -5,14 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "ipykernel>=7.2.0",
     "psycopg[binary]>=3.3.3",
     "python-dotenv>=1.2.2",
-]
-
-[tool.uv.workspace]
-members = [
-    "IntermediatePostgreSQL/Module3",
-    "JsonAndNLPInPostgreSQL/python_and_postgres",
 ]
 
 [tool.ruff]
@@ -20,5 +15,11 @@ line-length = 99
 
 [tool.ruff.lint]
 select = ["ALL"]
-ignore = ["T201", "INP001"]
+ignore = ["T201", "INP001", "ERA001"]
 unfixable = ["F401"]
+
+[tool.uv.workspace]
+members = [
+    "IntermediatePostgreSQL/Module3",
+    "JsonAndNLPInPostgreSQL/python_and_postgres",
+]

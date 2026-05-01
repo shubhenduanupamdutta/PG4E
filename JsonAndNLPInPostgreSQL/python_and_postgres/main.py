@@ -1,20 +1,14 @@
 """Sample Connection to PostgreSQL using psycopg and dotenv."""
 
-import os
 from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
-from typing import Any, Final
+from typing import Final
 
-from dotenv import load_dotenv
-from psycopg import AsyncConnection, AsyncCursor, Connection
+from load_env import DB_NAME, DB_PASSWORD, DB_PORT, USERNAME
+from psycopg import AsyncConnection
+from psycopg.rows import TupleRow
 
-# Load environment variables from .env file
-load_dotenv()
-USERNAME = os.getenv("LOCAL_DB_USERNAME")
-DB_NAME = "natural_language"
-DB_HOST = os.getenv("LOCAL_DB_HOST")
-DB_PORT = os.getenv("LOCAL_DB_PORT")
-DB_PASSWORD = os.getenv("LOCAL_DB_PASSWORD")
+DB_HOST = "natural_language"
 
 CONNECTION_STRING: Final[str] = (
     f"postgresql://{USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
@@ -31,7 +25,7 @@ async def get_async_connection() -> AsyncGenerator[AsyncConnection]:
         await async_connection.close()
 
 
-async def execute_query() -> Any:
+async def execute_query() -> list[TupleRow]:
     """Execute a query and return the results."""
     query = "SELECT * FROM docs ORDER BY id LIMIT 3"
     async with get_async_connection() as connection, connection.cursor() as cursor:
