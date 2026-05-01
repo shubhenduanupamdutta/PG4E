@@ -13,7 +13,7 @@ def query_value(
     sql: QueryNoTemplate,
     fields: tuple[Any] | None = None,
     error: Error | None = None,
-) -> TupleRow | None:
+) -> int | None:
     """Query the database and return a single value or None if there was an error."""
     row = query_row(cur, sql, fields, error)
     if row is None:
