@@ -31,3 +31,15 @@
 - [PostgreSQL and Python](./Module3/PostgreSQLAndPython.md)
 - [Mail Archive](./Module3/MailArchive.md)
 - [Ranking Search Results in PostgreSQL](./Module3/RankFunctionsInPostgreSQL.md)
+
+---
+
+## Module 4 - JSON and PostgreSQL
+
+---
+
+- [JavaScript Object Notation (JSON)](./Module4/JavaScriptObjectNotation.md)
+- [Python and JSON](./Module4/PythonAndJSON.md)
+- [PostgreSQL and JSON](./Module4/PostgreSQLAndJSON.md)
+- [Demo: Music Tracks and JSON](./Module4/DemoMusicTracksAndJSON.md)
+- [Demo: Loading JSON from API](./Module4/DemoLoadingJSONFromAPI.md)

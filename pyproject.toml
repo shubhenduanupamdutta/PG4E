@@ -22,4 +22,5 @@ unfixable = ["F401"]
 members = [
     "IntermediatePostgreSQL/Module3",
     "JsonAndNLPInPostgreSQL/python_and_postgres",
+    "JsonAndNLPInPostgreSQL/Module4",
 ]

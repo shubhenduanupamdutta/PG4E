@@ -5,6 +5,7 @@ requires-python = ">=3.13"
 [manifest]
 members = [
     "module3",
+    "module4",
     "pg4e",
     "python-and-postgres",
 ]
@@ -315,6 +316,17 @@ wheels = [
 name = "module3"
 version = "0.1.0"
 source = { virtual = "IntermediatePostgreSQL/Module3" }
+
+[[package]]
+name = "module4"
+version = "0.1.0"
+source = { virtual = "JsonAndNLPInPostgreSQL/Module4" }
+dependencies = [
+    { name = "psycopg", extra = ["binary"] },
+]
+
+[package.metadata]
+requires-dist = [{ name = "psycopg", extras = ["binary"], specifier = ">=3.3.3" }]
 
 [[package]]
 name = "nest-asyncio"
